@@ -70,7 +70,7 @@ const Education = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-400 font-bold">Grade: {edu.grade}</p>
+
               <p className="mt-4 text-gray-400">{edu.desc}</p>
             </div>
           </div>
