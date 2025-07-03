@@ -54,8 +54,8 @@ import japura from './assets/education_logo/japura-logo.jpg';
 
 // Project Section Logo's
 import netflixLogo from './assets/work_logo/netflix.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
+import dockerprojectLogo from './assets/work_logo/docker.png';
+import portfolioLogo from './assets/work_logo/sandun.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
 import webverLogo from './assets/work_logo/web_dig.png';
@@ -282,22 +282,22 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "DevOps CI/CD Automation Project",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
+        "I built a secure and automated CI/CD pipeline using Jenkins, Docker, and GitHub. The pipeline handles code integration, Docker image builds, automated testing, vulnerability scanning, and deployment to AWS EC2, with real-time notifications and status updates for every commit.",
+      image: dockerprojectLogo,
+      tags: ["Docker", "Jenkins", "Docker Hub", "Node Js"],
+      github: "https://github.com/BSChathuranga/GitHub-Docker-and-Jenkins-CI-CD-Pipelines ",
       webapp: "https://csprep.netlify.app/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Portfolio Site",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
+        "A responsive portfolio website built using the MERN stack to showcase my background, education, and projects. The site includes a contact section and résumé download feature, offering a seamless user experience for potential employers. The application is deployed on an AWS EC2 instance, ensuring high availability and reliable performance",
+      image: portfolioLogo,
+      tags: ["React", "Tailwind", "CSS", "AWS EC2"],
+      github: "https://github.com/BSChathuranga/My_PortFolio",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     // {
