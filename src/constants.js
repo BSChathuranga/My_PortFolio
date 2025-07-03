@@ -296,7 +296,7 @@ export const SkillsInfo = [
       description:
         "A responsive portfolio website built using the MERN stack to showcase my background, education, and projects. The site includes a contact section and résumé download feature, offering a seamless user experience for potential employers. The application is deployed on an AWS EC2 instance, ensuring high availability and reliable performance",
       image: portfolioLogo,
-      tags: ["React", "Tailwind", "CSS", "AWS EC2"],
+      tags: ["React", "Tailwind CSS", "AWS EC2"],
       github: "https://github.com/BSChathuranga/My_PortFolio",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
