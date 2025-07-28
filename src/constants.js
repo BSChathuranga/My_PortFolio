@@ -54,10 +54,11 @@ import japura from './assets/education_logo/japura-logo.jpg';
 
 // Project Section Logo's
 import netflixLogo from './assets/work_logo/netflix.png';
-import dockerprojectLogo from './assets/work_logo/docker.png';
-import portfolioLogo from './assets/work_logo/sandun.png';
+import dockerprojectLogo from './assets/work_logo/product.png';
+import QR from './assets/work_logo/QR.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+import portfolioLogo from './assets/work_logo/portfolio.png';
+import lfrsLogo from './assets/work_logo/LFRS.png';
 import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -270,8 +271,48 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+     {
+       id: 0,
+       title: "Lost_and_Found_System",
+       description:
+         "Developing a MERN stack web system to enhance Sri Lankan police efficiency in managing lost item reports, featuring a user-friendly interface, APIs, business logic and a structured database to streamline management and improve communication",
+       image: lfrsLogo,
+       tags: ["React", "Node.js", "Express.js", "MongoDB", "Docker", "GitHub Actions", "AWS EC2", "Tailwind CSS"],
+       github: "https://github.com/BSChathuranga/Lost_and_Found_System",
+       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+     },
     {
-      id: 0,
+      id: 1,
+      title: "ProductVault Project",
+      description:
+        "Developing a full-stack web app with React and Django (MySQL) focusing on clean API integration and efficient frontend-backend communication. The app is containerized with Docker, pushed to Docker Hub, and deployed to AWS EC2 via a CI/CD pipeline using GitHub Actions",
+      image: dockerprojectLogo,
+      tags: ["React", "Python", "Django", "MySQL", "Docker", "Docker Hub", "GitHub Actions", "AWS EC2"],
+      github: "https://github.com/BSChathuranga/Full_Stack_AWS",
+      webapp: "https://csprep.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "QR_Code_Generater",
+      description:
+        "Developing a full-stack file upload system using FastAPI and Next.js. The backend integrates with AWS S3 for storage, while the frontend provides a clean upload interface. Infrastructure is managed with Terraform, and the app is containerized with Docker, orchestrated using Kubernetes, and deployed to AWS EC2 via GitHub Actions",
+      image: QR,
+      tags: ["FastAPI", "Next.js", "AWS S3", "Docker", "Docker Hub", "GitHub Actions", "Kubernetes", "Terraform", "AWS EC2"],
+      github: "https://github.com/BSChathuranga/QR_Code_Generater",
+      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Portfolio Site",
+      description:
+        "A responsive portfolio website built using the MERN stack to showcase my background, education, and projects. The site includes a contact section and résumé download feature, offering a seamless user experience for potential employers. The application is deployed on an AWS EC2 instance, ensuring high availability and reliable performance",
+      image: portfolioLogo,
+      tags: ["React", "Tailwind CSS", "AWS EC2"],
+      github: "https://github.com/BSChathuranga/My_PortFolio"
+  
+    },
+    {
+      id: 4,
       title: "DevOps-Netflix-Project",
       description:
         "Designed a secure CI/CD pipeline using Jenkins, Docker, and AWS EC2 for automated testing, scanning, and deployment.Integrated SonarQube, Trivy, Prometheus, and Grafana for static analysis, container security, and real-time monitoring.",
@@ -280,46 +321,6 @@ export const SkillsInfo = [
       github: "https://github.com/BSChathuranga/DevOps-Netflix-Project",
       webapp: "https://githubprofiledetective.netlify.app/",
     },
-    {
-      id: 1,
-      title: "DevOps CI/CD Automation Project",
-      description:
-        "I built a secure and automated CI/CD pipeline using Jenkins, Docker, and GitHub. The pipeline handles code integration, Docker image builds, automated testing, vulnerability scanning, and deployment to AWS EC2, with real-time notifications and status updates for every commit.",
-      image: dockerprojectLogo,
-      tags: ["Docker", "Jenkins", "Docker Hub", "Node Js"],
-      github: "https://github.com/BSChathuranga/GitHub-Docker-and-Jenkins-CI-CD-Pipelines ",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Portfolio Site",
-      description:
-        "A responsive portfolio website built using the MERN stack to showcase my background, education, and projects. The site includes a contact section and résumé download feature, offering a seamless user experience for potential employers. The application is deployed on an AWS EC2 instance, ensuring high availability and reliable performance",
-      image: portfolioLogo,
-      tags: ["React", "Tailwind CSS", "AWS EC2"],
-      github: "https://github.com/BSChathuranga/My_PortFolio",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    // {
-    //   id: 3,
-    //   title: "Email Validator NPM Package",
-    //   description:
-    //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    //   image: npmLogo,
-    //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-    //   github: "https://github.com/codingmastr/cmtk-email-validator",
-    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    // },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
     // {
     //   id: 5,
     //   title: "Webverse Digital",

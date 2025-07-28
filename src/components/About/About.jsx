@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/Sandun.jpg';
+import profileImage from '../../assets/chathuranga.jpg';
 
 const About = () => {
   return (
@@ -22,10 +22,10 @@ const About = () => {
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-            <span className="text-white">I am a </span>
+            <span className="text-white"> </span>
             <ReactTypingEffect
               text={[
-                'Devops Engineer',
+                '',
                 
               ]}
               speed={100}
@@ -33,20 +33,17 @@ const About = () => {
               typingDelay={500}
               eraseDelay={2000}
               cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
+                <span className="text-[#8245ec]"></span>
               )}
             />
           </h3>
           {/* About Me Paragraph */}
           <p className="mt-8 mb-10 text-base leading-relaxed text-gray-400 sm:text-lg md:text-lg">
-            Enthusiastic fresher with hands-on experience in Linux, Docker, Ansible, AWS, and Kubernetes. 
-            Passionate about DevOps practices, automation, and cloud infrastructure. 
-            Seeking to apply my skills and grow in a challenging environment
-             focused on streamlining deployments and enhancing operational efficiency.
+           Motivated undergraduate seeking DevOps internship opportunities. Passionate about automation, cloud infrastructure, and continuous integration. With hands-on experience in Linux, Docker, Jenkins, Ansible, Kubernetes, and AWS, I aim to become a DevOps Engineer who streamlines software delivery, enhances system reliability, and drives innovation in cloud-native environments
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1PzzqX3yEg1KNeM3AJbEnuOr69Gh90ikT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1v_ZJxURQDI5Ioi8IVUpR795KZTFxqz6Y/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 mt-5 text-lg font-bold text-white transition duration-300 transform rounded-full hover:scale-105"
