@@ -38,7 +38,7 @@ import awsLogo from './assets/tech_logo/aws-color.png';
 import gcpLogo from './assets/tech_logo/logo-google-cloud-platform.png';
 import oracleLogo from './assets/tech_logo/oracle-logo-png.png';
 import githubactionsLogo from './assets/tech_logo/githubactions.png';
-import jenLogo from './assets/tech_logo/Jenkins.png';
+import jenLogo from './assets/tech_logo/jenkins.png';
 import pyLogo from './assets/tech_logo/py.png';
 import grafanaLogo from './assets/tech_logo/grafana.png';
 import prometheusLogo from './assets/tech_logo/prometheus.png';
