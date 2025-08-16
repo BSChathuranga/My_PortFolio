@@ -313,7 +313,7 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "DevOps-Netflix-Project",
+      title: "DevOps Netflix Project",
       description:
         "Designed a secure CI/CD pipeline using Jenkins, Docker, and AWS EC2 for automated testing, scanning, and deployment.Integrated SonarQube, Trivy, Prometheus, and Grafana for static analysis, container security, and real-time monitoring.",
       image: netflixLogo,
