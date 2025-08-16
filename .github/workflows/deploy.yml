@@ -24,11 +24,13 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy build folder to EC2
+      - name: Deploy React build to EC2
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
-          source: "."
-          target: "/var/www/html"
+          source: "dist/*"        # upload contents of dist/
+          target: "/var/www/html" # EC2 folder
+          rm: true                 # remove old files before deploy
+
