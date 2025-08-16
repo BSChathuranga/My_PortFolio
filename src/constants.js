@@ -273,11 +273,11 @@ export const SkillsInfo = [
   export const projects = [
      {
        id: 0,
-       title: "Lost_and_Found_System",
+       title: "Lost and Found System",
        description:
          "Developing a MERN stack web system to enhance Sri Lankan police efficiency in managing lost item reports, featuring a user-friendly interface, APIs, business logic and a structured database to streamline management and improve communication",
        image: lfrsLogo,
-       tags: ["React", "Node.js", "Express.js", "MongoDB", "Docker", "GitHub Actions", "AWS EC2", "Tailwind CSS"],
+       tags: ["React", "Node.js", "Express.js", "MongoDB", "Docker", "GitHub Actions", "Kubernetes", "Terraform", "Tailwind CSS"],
        github: "https://github.com/BSChathuranga/Lost_and_Found_System",
        webapp: "https://www.npmjs.com/package/cmtk-email-validator",
      },
@@ -293,7 +293,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "QR_Code_Generater",
+      title: "QR Code Generater",
       description:
         "Developing a full-stack file upload system using FastAPI and Next.js. The backend integrates with AWS S3 for storage, while the frontend provides a clean upload interface. Infrastructure is managed with Terraform, and the app is containerized with Docker, orchestrated using Kubernetes, and deployed to AWS EC2 via GitHub Actions",
       image: QR,
@@ -307,7 +307,7 @@ export const SkillsInfo = [
       description:
         "A responsive portfolio website built using the MERN stack to showcase my background, education, and projects. The site includes a contact section and résumé download feature, offering a seamless user experience for potential employers. The application is deployed on an AWS EC2 instance, ensuring high availability and reliable performance",
       image: portfolioLogo,
-      tags: ["React", "Tailwind CSS", "AWS EC2"],
+      tags: ["React", "Tailwind CSS", "AWS EC2", "GitHub Actions"],
       github: "https://github.com/BSChathuranga/My_PortFolio"
   
     },
