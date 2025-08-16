@@ -29,7 +29,8 @@ jobs:
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
-          key: ${{ secrets.EC2_SSH_KEY }}                # upload contents of dist/
+          key: ${{ secrets.EC2_SSH_KEY }} 
+          source: "dist/*" # upload contents of dist/
           target: "/var/www/html" # EC2 folder
           rm: true                 # remove old files before deploy
 
