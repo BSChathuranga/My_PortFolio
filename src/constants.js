@@ -32,7 +32,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
-import dockerLogo from './assets/tech_logo/Docker.png';
+import dockerLogo from './assets/tech_logo/docker.png';
 import kuberLogo from './assets/tech_logo/kubernetes.png';
 import awsLogo from './assets/tech_logo/aws-color.png';
 import gcpLogo from './assets/tech_logo/logo-google-cloud-platform.png';
